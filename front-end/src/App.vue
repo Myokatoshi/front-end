@@ -1,14 +1,16 @@
 <template>
-  <register/>
+  <div id="app">
+    <connexion/>    
+  </div>
 </template>
 
 <script>
-import Register from './components/Register.vue'
+import Connexion from './pages/Connexion.vue'
 
 export default {
   name: 'App',
   components: {
-    Register
+    Connexion,
   }
 }
 </script>

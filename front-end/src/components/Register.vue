@@ -1,25 +1,12 @@
-<template>
-  <section class="login">
-        <h1 class="text-center">Workplace<br><img src="images/icon.png" height="50px" width="50px"/>Groupomania</h1>
-        <div class="d-flex around">
-            <form  class="center between" action="" method="POST">
-                <h2>Se connecter</h2>
-                <label for="">Login</label>
-                <input type="text" placeholder="Entrer un login unique" name="login" required><br>
+<template>          
+  <form class="mx-auto col-md-12" action="" method="POST">
+      <h2>S'inscrire</h2>
+      <label for="">Login</label>
+      <input type="text" placeholder="Entrer un login unique" name="login" required><br>
 
-                <label for="">Mot de passe</label>
-                <input type="password" placeholder="Entrer un mot de passe" name="password" required>
-            </form>
-            <form class="center between" action="" method="POST">
-                <h2>S'enregister</h2>
-                <label for="">Login</label>
-                <input type="text" placeholder="Entrer un login unique" name="login" required><br>
-
-                <label for="">Mot de passe</label>
-                <input type="password" placeholder="Entrer un mot de passe" name="password" required>
-            </form>
-        </div>
-    </section>
+      <label for="">Mot de passe</label>
+      <input type="password" placeholder="Entrer un mot de passe" name="password" required>
+  </form>       
 </template>
 
 <script>
