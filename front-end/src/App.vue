@@ -1,16 +1,23 @@
 <template>
   <div id="app">
-    <connexion/>    
-  </div>
+    <headers/>
+
+    <router-view/>
+    <footers/>
+  </div>  
 </template>
 
+
 <script>
-import Connexion from './pages/Connexion.vue'
+import Headers from './components/Headers.vue'
+import Footers from './components/Footers.vue'
+
 
 export default {
-  name: 'App',
-  components: {
-    Connexion,
+    name: 'App',
+    components: {
+    Headers,
+    Footers
   }
 }
 </script>

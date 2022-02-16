@@ -10,9 +10,9 @@
                 <input class="my-3 col-9 col-md-6" type="text" placeholder="Entrer un login unique" name="login" required>
                 <input class="my-3 col-9 col-md-6" type="password" placeholder="Entrer un mot de passe" name="password" required>
             </div>
-            <div class="form-check col-3 m-auto">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label text-start" for="flexCheckDefault">
+            <div class="d-flex justify-content-center col-6  col-md-4 form-check m-auto">
+                <input class="form-check-input col-6 col-md-4" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label align-self-start ps-2 col-8 col-md-6 text-start" for="flexCheckDefault">
                     Rester connecté
                 </label>
             </div>
@@ -20,7 +20,7 @@
                 <button class="btn-login my-4 p-1 col-9">Login</button>
             </div>
         </form>
-        
+        <p class="text-center col-md-12">Vous n'etes pas encore inscrit ?<br><router-link to="/Register">S'inscrire</router-link></p>
     </div>
 </template>
 
